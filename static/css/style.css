@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+* {
+    color: inherit;
+    font-family: inherit
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: raleway, sans-serif;
+    background: #1d1d1d;
+    color: #e5e5e5;
+}
+
+body.lock {
+    overflow: hidden
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+input,
+button {
+    outline: none
+}
+
+button {
+    cursor: pointer;
+    border: none
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+main {
+    background-image: url(../media/bg.html);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%
+}
+
+.main-flex {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 710px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative
+}
+
+.slider {
+    max-width: 400px;
+    height: 100%;
+    pointer-events: none;
+    user-select: none
+}
+
+.slider img {
+    width: 100%;
+    border: none !important
+}

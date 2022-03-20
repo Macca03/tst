@@ -1,0 +1,32 @@
+.BottomBar[data-v-cb4699e0] {
+    position: absolute;
+    top: 0px;
+    z-index: 10000;
+    right: 0px
+}
+
+.BottomBar ul[data-v-cb4699e0] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px
+}
+
+.BottomBar ul li a[data-v-cb4699e0] {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: all .15s ease
+}
+
+.BottomBar ul li a[data-v-cb4699e0]:hover {
+    transform: scale(1.2) rotate(30deg)
+}
+
+.BottomBar ul li a svg[data-v-cb4699e0] {
+    width: 100%;
+    fill: #fff
+}

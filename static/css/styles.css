@@ -1,0 +1,610 @@
+#num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.num_c {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dutch-detail-two-sides {
+    text-align: center;
+}
+
+.header-cont {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Blender Pro', 'Helvetica', sans-serif;
+}
+
+#claim-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+#payment-modal {
+    display: flex;
+    align-items: center;
+}
+
+.header_flex {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 524px;
+    justify-content: space-between;
+}
+
+.text-block-13 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-shadow: 
+    -0   -2px 1px #000000,
+     0   -2px 1px #000000,
+    -0    2px 1px #000000,
+     0    2px 1px #000000,
+    -2px -0   1px #000000,
+     2px -0   1px #000000,
+    -2px  0   1px #000000,
+     2px  0   1px #000000,
+    -1px -2px 1px #000000,
+     1px -2px 1px #000000,
+    -1px  2px 1px #000000,
+     1px  2px 1px #000000,
+    -2px -1px 1px #000000,
+     2px -1px 1px #000000,
+    -2px  1px 1px #000000,
+     2px  1px 1px #000000,
+    -2px -2px 1px #000000,
+     2px -2px 1px #000000,
+    -2px  2px 1px #000000,
+     2px  2px 1px #000000,
+    -2px -2px 1px #000000,
+     2px -2px 1px #000000,
+    -2px  2px 1px #000000,
+     2px  2px 1px #000000;
+}
+
+.text-block-12 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    text-shadow: 
+    -0   -2px 1px #000000,
+     0   -2px 1px #000000,
+    -0    2px 1px #000000,
+     0    2px 1px #000000,
+    -2px -0   1px #000000,
+     2px -0   1px #000000,
+    -2px  0   1px #000000,
+     2px  0   1px #000000,
+    -1px -2px 1px #000000,
+     1px -2px 1px #000000,
+    -1px  2px 1px #000000,
+     1px  2px 1px #000000,
+    -2px -1px 1px #000000,
+     2px -1px 1px #000000,
+    -2px  1px 1px #000000,
+     2px  1px 1px #000000,
+    -2px -2px 1px #000000,
+     2px -2px 1px #000000,
+    -2px  2px 1px #000000,
+     2px  2px 1px #000000,
+    -2px -2px 1px #000000,
+     2px -2px 1px #000000,
+    -2px  2px 1px #000000,
+     2px  2px 1px #000000;
+}
+
+.heading-2-copy-copy-copy-copy {
+    opacity: 1;
+    color: rgb(252, 252, 253);
+    line-height: 51px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 51px !important;
+    letter-spacing: 1px !important;
+}
+
+#payment-info {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 10px;
+}
+
+#price-img {
+    width: 82px;
+    height: 82px;
+    border-radius: 10px;
+}
+
+#payment-info-text {
+    text-align: end;
+    margin: auto 0px auto auto;
+}
+
+#payment-info-text p {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0!important;
+}
+
+#payment-info-text h5 {
+    font-size: 22px;
+    font-weight: 400!important;
+}
+
+#ape-number {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#minus,
+#plus {
+    position: relative;
+    background: #21BD13;
+    /* border: 1px solid #21BD13; */
+    border-radius: 50%;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#payment-info-text h4,
+#payment-info-text h5 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: rgb(241, 241, 241);
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#ape-total {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#ape-total h5,
+#ape-total p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0!important;
+    font-family: "Oxanium-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#ape-total p {
+    padding-right: 5px !important;
+}
+#ape-total h5 {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#pricex {
+    font-family: "Oxanium-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 63px;
+    height: 39px;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.frm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-button {
+    width: 90px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #FF0008;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.max-button:hover {
+    background-color: #fff;
+    color: #FF0008;
+}
+
+#ape-max {
+    font-family: "Oxanium-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFF00;
+    margin: auto 0 auto auto;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    transition: -webkit-transform 0.25s ease-in-out;
+    -o-transition: -o-transform 0.25s ease-in-out;
+    -moz-transition: transform 0.25s ease-in-out, -moz-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out, -moz-transform 0.25s ease-in-out, -o-transform 0.25s ease-in-out;
+}
+
+#total {
+    color: #d20000;
+    font-size: 24px;
+}
+
+.incr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 900;
+    width: 180px;
+    height: 55px;
+    padding: 0 11px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+}
+
+#timer+p {
+    padding-bottom: 20px;
+}
+
+.mint-change {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    width: 150px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 15px;
+    padding-left: 6px!important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #d20000!important;
+}
+
+#connect,
+#transfer {
+    font-family: "Oxanium-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+/*#transfer{*/
+/*    display: none;*/
+/*}*/
+
+.svelte-q1527 {
+    display: none;
+}
+
+.svelte-q1527:first-child {
+    display: block;
+}
+
+@media(max-width:720px) {
+    #box0title1 {
+        font-size: 100px!important;
+    }
+    #box0title0 {
+        font-size: 60px!important;
+    }
+    .header-cont {
+        /*width: 100%;*/
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #claim-text-wrapper {
+        width: 100%;
+    }
+    .header_flex {
+        width: 100%;
+    }
+    .svelte-q1527 {
+        display: block;
+    }
+    .main-flex {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .slider {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+.con-text {
+    max-width: 601px;
+    width: 100%;
+}
+.price__description {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2px;
+}
+.price__price {
+    margin-right: 18px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+	text-shadow: 
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
+.price__price span {
+    font-family: "Oxanium-Bold";
+    font-weight: 700;
+    padding-left: 5px;
+}
+.price__supply {
+    font-family: "Oxanium-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+	text-shadow: 
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
+.price__supply span {
+    font-family: "Oxanium-Bold";
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.mint__title {
+    font-family: "TitilliumWeb-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+	text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
+.mint__description-text {
+    font-family: "Oxanium-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+.mint__description {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__buy-sale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sec1 .con-btns img.c-2-2[data-v-553c106c] {
+    transform: translate(-31px);
+    width: 194px;
+}
+.Sec1 .con-btns img.c-1-1[data-v-553c106c] {
+    transform: translate(28px);
+    width: 178px;
+}
+
+.Sec1 .con-btns img.c-3-3[data-v-553c106c] {
+    width: 225px;
+}
+
+
+.Sec1 .con-btns img.c-w[data-v-553c106c] {
+    transform: translate(-31px);
+    width: 194px;
+}
+.Sec1 .con-btns img.c-q[data-v-553c106c] {
+    transform: translate(28px);
+    width: 178px;
+}
+
+.Sec1 .con-btns img.c-e[data-v-553c106c] {
+    width: 225px;
+}
+
+.con-img-gif img {
+    border-radius: 20px;
+}
+
+.dutch-detail-two-sides {
+    display: none;
+}
+
+.Navbar {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Oxanium-Bold";
+    src: url("../fonts/Oxanium-Bold.woff2") format("woff2"), url("../fonts/Oxanium-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: "Oxanium-Medium";
+    src: url("../fonts/Oxanium-Medium.woff2") format("woff2"), url("../fonts/Oxanium-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: "Oxanium-Regular";
+    src: url("../fonts/Oxanium-Regular.woff2") format("woff2"), url("../fonts/Oxanium-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: "Oxanium-SemiBold";
+    src: url("../fonts/Oxanium-SemiBold.woff2") format("woff2"), url("../fonts/Oxanium-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+@font-face {
+    font-family: "TitilliumWeb-Bold";
+    src: url("../fonts/TitilliumWeb-Bold.woff2") format("woff2"), url("../fonts/TitilliumWeb-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
